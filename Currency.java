@@ -9,11 +9,11 @@ public class Currency
       this.name = name;
    }
    
-   private double convert(double amount) {
+   public double convert(double amount) {
       return amount * exchange;
    }
    
-   private String getName() {
+   public String getName() {
       return this.name;
    }
 }
